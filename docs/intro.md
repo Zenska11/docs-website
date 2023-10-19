@@ -5,8 +5,8 @@ slug: /
 
 # MCs Dokumentaion
 
-- Homeserver
-- ESP
-- 3D Drucker
+Alles rund um Homeserver, 3D Drucker und ESPs. Im nachfolgenden ist meine Homeserver Architektur.
+
+--> Dark Mode!
 
 ![Homeserver Architektur](HomeserverArchitektur.png)
