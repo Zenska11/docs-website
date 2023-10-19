@@ -8,3 +8,5 @@ slug: /
 - Homeserver
 - ESP
 - 3D Drucker
+
+![Homeserver Architektur](HomeserverArchitektur.png)
