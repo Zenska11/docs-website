@@ -7,6 +7,8 @@ slug: /
 
 Alles rund um Homeserver, 3D Drucker und ESPs. Im nachfolgenden ist meine Homeserver Architektur.
 
+
+## Architektur
 --> Dark Mode!
 
 ![Homeserver Architektur](HomeserverArchitektur.png)
