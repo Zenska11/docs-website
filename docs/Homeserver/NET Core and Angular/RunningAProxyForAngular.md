@@ -11,7 +11,7 @@ Mit diesem Proxy wird ermöglicht, dass Backends angesprochen werden können, we
 
 ### Proxy-Service
 ***server.js***
-```json
+```js
 // @ts-check
 // Doku: https://github.com/chimurai/http-proxy-middleware/tree/v2.0.4#intercept-and-manipulate-requests
 
@@ -51,7 +51,7 @@ app.listen(3000);
 Wichtig war in dem Beispiel von CoC, dass der Header (Origin) entfernt wird.
 
 ***package.json***
-```Json
+```json
 {
   "name": "proxy",
   "version": "1.0.0",
@@ -109,7 +109,7 @@ creating a ***proxy.conf.json***
 The start scipt needs a additional parameter.
 
 ***package.json***
-``` Json
+``` json
 "scripts": {
     "ng": "ng",
     "start": "ng serve --proxy-config proxy.conf.json",
@@ -133,3 +133,4 @@ export const environment = {
             "browserTarget": "dmz:build",
             "proxyConfig": "src/proxy.conf.json"
           },
+```

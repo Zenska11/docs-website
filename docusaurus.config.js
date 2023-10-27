@@ -56,7 +56,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      // Replace with your project's social card       
       image: 'img/fav',
       navbar: {
         title: 'MCs Dokumentation',
@@ -117,6 +117,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['cpp', 'yaml', 'csharp', 'json'],
       },
     }),
 };
