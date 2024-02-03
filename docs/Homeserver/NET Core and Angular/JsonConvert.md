@@ -7,7 +7,7 @@ slug: /jsonConvert
 Upload file via Postman:
 In the POST Request -> Body -> form-data 
 
-![Upload file in Postman](postmanUploadFile.png)
+![Upload file in Postman](PostmanUploadFile.png)
 
 its importand, that the key is the same as the parameter in the .NET Core App
 
