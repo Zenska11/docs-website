@@ -9,37 +9,32 @@ slug: /arduino
 - Lange Seite => plus Pol => Pin
 - Kurze Seite => minus Pol => GND
 
-# Digitale Eingänge
+## LED auf dem Board
+
+```cpp
+const int ledPin = 13;//the led attach to
+
+void setup()
+{ 
+  pinMode(ledPin,OUTPUT);//initialize the ledPin as an output
+} 
+```
+
+## Digitale Eingänge
 ```cpp
   pinMode(ledPin, OUTPUT); // LED als Output
   pinMode(buttonApin, INPUT_PULLUP); // Der Standardwert für den  Pin   ist   HIGH, außer er wurde durch  einen betätigten  Schalter auf „LOW“ geschaltet.
   pinMode(buttonBpin, INPUT_PULLUP);  
 ```
 
-```csharp
-const public test = new GUID();
-public class Test () {
-    public readonly me;
-}
+Da die Taster standardmäßig auf HIGH sind und erst beim klicken auf diese, werden sie auf LOW gestellt. Darauf wartet das IF-Statement und schaltet darauf hin die LED ein oder aus. In diesem Beispiel aus.
+```cpp
+if (digitalRead(buttonApin) == LOW) 
+  {
+    digitalWrite(ledPin, LOW);
+    Serial.println("Licht aus");
+  }
 ```
 
-```json
-{
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
-    }
-  },
-  "SqlServer": {
-    //Lokal
-    //"ConnectionString": "Data Source=MC\\MZENZENSQLSERVER;Initial Catalog=Proverb;Integrated Security=True"
-    
-    // Server
-    "ConnectionString": "Data Source=192.168.178.130,1440;Initial Catalog=Proverb;Persist Security Info=True;User ID=SA;Password=SuperSave123!"
 
-  },
-  "AllowedHosts": "*"
-}
-```
 

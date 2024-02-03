@@ -3,7 +3,17 @@ title: TrueNAS Scale
 slug: /trueNasScale
 ---
 
-# TrueNAS Scale
+# TrueNAS Passthrough HHDs
+
+[YouTube Video](https://www.youtube.com/watch?v=M3pKprTdNqQ&t=828s)
+
+```bash
+lsblk
+lsblk -o +MODEL,SERIAL
+
+```
+
+# TrueNAS Scale BigBoi
 
 ## Einrichtung von TrueNAS Scale
 
@@ -36,3 +46,7 @@ _Storage -> View permissions -> add item -> user -> select user -> Full Control_
 **Erreichbar unter:**
 
 \\192.168.178.71\BigBoi
+
+# Plex and Jellyfin
+
+[YouTube Video](https://www.youtube.com/watch?v=3GpaxFYe3MU) 
