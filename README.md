@@ -14,3 +14,4 @@ Website `bauen`, um den Inhalt aus ***/build*** ins Repo Zenska.Github.io zu zie
 ```
 $ npm run build
 ```
+running on gh-pages branch
