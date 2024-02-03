@@ -5,7 +5,7 @@ slug: /hostingAnAngularNetApp
 
 # Hosting an Angular .NET App
 
-Hosting an Angular / .NET App on my homeserver with [Traefik](/traefik) as my reverse proxy.
+Hosting an Angular / .NET App on my homeserver with Traefik as my reverse proxy.
 
 3 Steps to do:
 1. SQL Server
