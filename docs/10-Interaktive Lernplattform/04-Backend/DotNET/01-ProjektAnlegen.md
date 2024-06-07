@@ -5,14 +5,13 @@ slug: /01projektAnlegen
 
 # Projekt erstellen
 
-In dieser Dokumentation wird die IDE Raider verwendet. In allen anderen verläuft der Prozess ähnlich.
+In dieser Dokumentation wird die IDE Rider verwendet. In anderen IDEs verläuft der Prozess ähnlich.
 
 ## Übersicht
 
-In der Abbildung sind alle vorhandenen Projekte zusehen, welche in Rider eingebunden sind. Jedes dieser kann mit einem
-Klick geöffnet werden.
-In dem Suchfeld kann nach einem bestimmten Projekt gesucht werden. Über die Buttons rechts daneben lässt sich eine neue
-Solution erstellen oder ein anderes lokales Projekt öffen.
+In der Abbildung sind alle vorhandenen Projekte zu sehen, die in Rider eingebunden sind. Jedes dieser Projekte kann mit
+einem Klick geöffnet werden. Im Suchfeld kann nach einem bestimmten Projekt gesucht werden. Über die rechts daneben
+befindlichen Buttons lässt sich eine neue Solution erstellen oder ein anderes lokales Projekt öffnen.
 
 ![](uebersicht.png)
 
