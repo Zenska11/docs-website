@@ -1,4 +1,4 @@
 ---
-title: Enpunkte testen
+title: Endpunkte testen
 slug: /02datenbanklayerHinzufügen
 ---
