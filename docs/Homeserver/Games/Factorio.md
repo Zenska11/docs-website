@@ -1,4 +1,0 @@
----
-title: Factorio
-slug: /factorio
----
