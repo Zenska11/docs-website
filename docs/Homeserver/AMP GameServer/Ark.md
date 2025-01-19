@@ -1,6 +1,6 @@
 ---
-title: Amp
-slug: /amp
+title: Ark
+slug: /arkAmp
 ---
 
 # Ark
